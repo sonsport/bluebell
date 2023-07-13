@@ -1,0 +1,23 @@
+name: "web_app"
+mode: "dev"
+port: 8080
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  username: "root"
+  password: "www.163.com"
+  dbname: "bluebell"
+  maxOpenConns: 20
+  maxIdleConns: 10
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  db: 0
+  poolSize: 20
+log:
+  level: "debug"
+  fileName: "web_app.log"
+  maxSize: 10
+  maxBackups: 5
+  maxAge: 30
+  compress: false
